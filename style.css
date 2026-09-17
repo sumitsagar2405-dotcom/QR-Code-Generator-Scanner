@@ -8,7 +8,7 @@
 }
 
 body{
-    background: #7148e7;
+    background: pink;
     font-family: "Poppins",serif;
 }
 
@@ -21,7 +21,7 @@ body{
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
 
 
@@ -61,13 +61,13 @@ body{
 }
 
 .container .toggle-box #qr-scanner-icon{
-    margin-left: -22px;
+    margin-left: -23px;
 }
 
 .container .toggle-box .checkbox-circle{
     height: 24px;
     width: 24px;
-    background-color: #7148EC;
+    background-color:#bbaeb0;
     border-radius: 100%;
     position: absolute;
     top: 28px;
@@ -141,7 +141,7 @@ body{
 }
 
 .container .qr-code-generator-box input:focus{
-    border-color: #7148EC;
+    border-color: #bbaeb0;
 }
 
 
@@ -149,7 +149,7 @@ body{
     all: unset;
     height: 50px;
     width: 300px;
-    background-color: #7148EC;
+    background-color:#bbaeb0;
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -198,7 +198,7 @@ body{
     all: unset;
     height: 35px;
     width: 300px;
-    background-color: #7148e7;
+    background-color: #bbaeb0;
     color: #fff;
     border-radius: 5px;
     text-align: center;
@@ -212,7 +212,7 @@ body{
 .container .scanner-box .scan-animation{
     height: 3px;
     width: 195px;
-    background-color: #7148e7;
+    background-color: #212121;
     z-index: 1;
     position: absolute;
     border-radius: 100%;
